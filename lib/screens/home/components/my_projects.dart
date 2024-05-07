@@ -21,7 +21,7 @@ class MyProjects extends StatelessWidget {
         const SizedBox(
           height: defaultPadding,
         ),
-        Responsive(
+        const Responsive(
           mobile: ProjectsGridview(
             crossAxisCount: 1,
             childAspectRatio: 1.7,

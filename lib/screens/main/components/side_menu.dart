@@ -8,9 +8,7 @@ import 'knowledges.dart';
 import 'my_info.dart';
 
 class SideMenu extends StatelessWidget {
-  const SideMenu({
-    super.key,
-  });
+  const SideMenu({super.key,});
 
   @override
   Widget build(BuildContext context) {
@@ -26,11 +24,11 @@ class SideMenu extends StatelessWidget {
                   children: [
                     const AreaInfoText(
                       title: "Residence",
-                      text: "Bangladesh",
+                      text: "Gujarat",
                     ),
                     const AreaInfoText(
                       title: "City",
-                      text: "Dhaka",
+                      text: "Surat",
                     ),
                     const AreaInfoText(
                       title: "Age",

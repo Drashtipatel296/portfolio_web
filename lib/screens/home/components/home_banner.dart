@@ -1,5 +1,4 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:website/responsive.dart';
 import '../../../constants.dart';
@@ -83,15 +82,15 @@ class MyBuildAnimatedText extends StatelessWidget {
       maxLines: 1,
       child: Row(
         children: [
-          if (!Responsive.isMobileLarge(context)) FlutterCodedText(),
+          if (!Responsive.isMobileLarge(context)) const FlutterCodedText(),
           if (!Responsive.isMobileLarge(context))
-            SizedBox(
+            const SizedBox(
               width: defaultPadding / 2,
             ),
-          Text('I build '),
+          const Text('I build '),
           Responsive.isMobile(context)
-              ? Expanded(child: AnimatedText())
-              : AnimatedText(),
+              ? const Expanded(child: AnimatedText())
+              : const AnimatedText(),
           if (!Responsive.isMobileLarge(context))
             const SizedBox(
               width: defaultPadding / 2,
@@ -114,15 +113,15 @@ class AnimatedText extends StatelessWidget {
       animatedTexts: [
         TyperAnimatedText(
           'responsive web and mobile app.',
-          speed: Duration(milliseconds: 60),
+          speed: const Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
           'complete e-commerce app UI.',
-          speed: Duration(milliseconds: 60),
+          speed: const Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
           'Chat app with dark and light theme.',
-          speed: Duration(milliseconds: 60),
+          speed: const Duration(milliseconds: 60),
         ),
       ],
     );
@@ -136,7 +135,7 @@ class FlutterCodedText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text.rich(
+    return const Text.rich(
       TextSpan(
         text: '<',
         children: [
