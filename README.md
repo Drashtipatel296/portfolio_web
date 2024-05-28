@@ -17,11 +17,17 @@
 
 #### Screenshots :-
 <div align="center">
-  <img src="https://github.com/Drashtipatel296/portfolio_web/assets/143180636/a02ef52c-26e6-4b63-9b73-b8ec51329f82">
-  <img src="https://github.com/Drashtipatel296/portfolio_web/assets/143180636/1b84d623-285b-4913-9169-47dc78ae6e42">
+  <img src="https://github.com/Drashtipatel296/portfolio_web/assets/143180636/f8b487d2-2c8a-4bf0-85ee-16c2782a81e9">
+  <img src="https://github.com/Drashtipatel296/portfolio_web/assets/143180636/5a419db2-24da-4a59-bea3-30087f0af027">
 </div>
 
 #### Video :-
 <div align="center">
-  <video src="https://github.com/Drashtipatel296/portfolio_web/assets/143180636/2cfda10d-0c08-40b6-8123-72b735bd4cd2">
+   <video src="https://github.com/Drashtipatel296/portfolio_web/assets/143180636/40b55a51-1a3f-4fb7-9069-825501f9199c">
 </div>
+
+
+
+
+
+
